@@ -7,7 +7,7 @@ void main(){
 //   print("Enter Your Name : ");
 //   String? name = stdin.readLineSync();
 //   print(name);
-// /////////////=================================/////////////////////
+// /////////////=================================//////////////////////
 //   stdout.write(" please enter your name: ");
 //   String name2 = stdin.readLineSync()!;
 //   print(name2);

@@ -6,6 +6,9 @@ void main(){
   person2.name = "power Star"; // accessing name variable through object
   person2.printName();
 
+  Child child = new Child();
+  child.hisCars();
+
 }
 class Human{ /// ==> Class creation
   String? name;
@@ -15,4 +18,16 @@ class Human{ /// ==> Class creation
     print("Hi My name is $name");
   }
 
+}
+class Father{
+
+  String? Car;
+  void cars(){
+    print('BMW');
+  }
+}
+class Child extends Father{
+  void hisCars(){
+    cars();  /// inherit the property of his Father
+}
 }

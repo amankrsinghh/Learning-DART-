@@ -12,7 +12,8 @@
 // }
 
 
-/// await kehta hai ki phle task to asynchronous hoga but phle async task hoga tab main method ka kutc run hoga ///
+/// await kehta hai ki phle task
+/// to asynchronous hoga but phle async task hoga tab main method ka run hoga ///
 void main()async{
   await futurefun();
   print("Hello");
